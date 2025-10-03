@@ -8,13 +8,14 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 1. [**Single Page CV**](https://roadmap.sh/projects/single-page-cv)
 2. [**Basic HTML Website**](https://roadmap.sh/projects/basic-html-website)
+3. [**Personal Portfolio**](https://roadmap.sh/projects/portfolio-website)
 
 ## 🛠️ Technologies & Skills Covered
 
 - **HTML5**: Semantic markup, document structure
-- **CSS3**: Styling and layout (upcoming projects)
-- **JavaScript**: Interactive functionality (upcoming projects)
-- **Responsive Design**: Mobile-first approach (upcoming projects)
+- **CSS3**: Styling and layout
+- **JavaScript**: Interactive functionality
+- **Responsive Design**: Mobile-first approach
 - **Version Control**: Git and GitHub
 
 ## 🎯 Learning Path

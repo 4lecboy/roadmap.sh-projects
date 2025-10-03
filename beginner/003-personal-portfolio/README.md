@@ -42,5 +42,16 @@ This project builds on the previous HTML-only website by applying CSS to create 
 - [x] Responsive navigation bar
 - [x] Well-styled contact form (labels, inputs, accessibility)
 - [x] Google Fonts integrated (typography enhancement)
-- [ ] Deployed to GitHub Pages/Cloudflare Pages
-- [ ] Dark mode via CSS variables (prefers-color-scheme + toggle)
+- [x] Dark mode via CSS variables (prefers-color-scheme + toggle)
+
+
+## Screenshots
+
+### Desktop
+![Desktop screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222310.png "Desktop")
+
+### Tablet
+![Tablet screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222347.png "Tablet")
+
+### Mobile
+![Mobile screenshot of the portfolio](./Personal%20Portfolio%20Screenshot%202025-10-03%20222348.png "Mobile")
