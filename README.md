@@ -6,17 +6,8 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 ### Beginner Level
 
-1. [**Single Page CV**](beginner/001-single-page-cv/) - A structured, single-page CV using only semantic HTML with basic SEO and social sharing readiness.
-   - Implemented semantic HTML structure with proper heading hierarchy
-   - Added SEO meta tags and Open Graph tags
-   - Linked favicon for branding
-
-2. [**Basic HTML Website**](beginner/basic-html-website/) - A multi-page website focusing on proper HTML structure and semantics.
-   - Created multiple interconnected pages (Home, Projects, Articles, Contact)
-   - Implemented consistent navigation across all pages
-   - Added SEO meta tags for better search engine visibility
-   - Built a contact form with proper HTML form elements
-
+1. [**Single Page CV**](https://roadmap.sh/projects/single-page-cv)
+2. [**Basic HTML Website**](https://roadmap.sh/projects/basic-html-website)
 
 ## 🛠️ Technologies & Skills Covered
 
