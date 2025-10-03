@@ -47,11 +47,8 @@ This project builds on the previous HTML-only website by applying CSS to create 
 
 ## Screenshots
 
-### Desktop
 ![Desktop screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222310.png "Desktop")
 
-### Tablet
 ![Tablet screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222347.png "Tablet")
 
-### Mobile
 ![Mobile screenshot of the portfolio](./Personal%20Portfolio%20Screenshot%202025-10-03%20222348.png "Mobile")
