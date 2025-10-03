@@ -32,12 +32,23 @@
     <header>
         <nav class="navbar" aria-label="Main Navigation">
             <a href="index.html" class="logo">NEWELLE</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/projects.html">Projects</a></li>
-                <li><a href="pages/articles.html">Articles</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
+
+            <div class="nav-actions">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/articles.html">Articles</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Mobile menu toggle -->
+                <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" title="Menu">☰</button>
+
+                <!-- Theme mode toggle -->
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">🌙</button>
+
+            </div>
+     
         </nav>
     </header>
     
@@ -149,18 +160,20 @@
             <div class="footer-info">
                 <p>&copy; 2025 Newelle. All rights reserved.</p>
             </div>
-            <div class="social-links">
+            <nav class="social-links">
                 <a href="https://github.com/4lecboy">GitHub</a>
                 <a href="https://www.linkedin.com/in/nrquiambao/">LinkedIn</a>
                 <a href="https://x.com/NewelleDev">Twitter</a>
-            </div>
+            </nav>
             <div>
-                <a href="#hero" class="back-to-top" aria-label="Go to top of page">↑</a>
+                <a href="#hero" class="back-to-top" aria-label="Back to top">↑</a>
             </div>
         </div>
         
 
     </footer>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
