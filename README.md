@@ -22,17 +22,6 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 This repository follows the roadmap.sh frontend development path, progressing from basic HTML to advanced frontend frameworks and tools.
 
-### Current Progress
-- ✅ HTML Fundamentals
-- 🔄 CSS Fundamentals (in progress)
-- ⏳ JavaScript Basics (planned)
-- ⏳ Version Control (planned)
-- ⏳ Package Managers (planned)
-- ⏳ CSS Frameworks (planned)
-- ⏳ Frontend Frameworks (planned)
-
-These projects demonstrate my progression in learning frontend development fundamentals, starting with proper HTML structure and semantics before moving to styling and interactive elements.
-
 Each project folder contains its own README with:
 - Project goals
 - Implementation notes

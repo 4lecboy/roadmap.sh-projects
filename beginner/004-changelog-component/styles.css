@@ -1,0 +1,207 @@
+/* CSS Custom Properties */
+:root {
+    --primary-bg: #ffffff;
+    --secondary-bg: #f8f9fa;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --text-muted: #adb5bd;
+    --accent-color: #343a40;
+    --timeline-line: #dee2e6;
+    --shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --shadow-lg: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --border-radius: 0.5rem;
+    --border-radius-lg: 1rem;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-xxl: 1.75rem;
+    --line-height-base: 1.5;
+    --transition: all 0.2s ease-in-out;
+}
+
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: var(--line-height-base);
+    color: var(--text-primary);
+    background-color: var(--secondary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: var(--spacing-md);
+}
+
+/* Container */
+.container {
+    background: var(--primary-bg);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    width: 100%;
+    max-width: 42rem;
+}
+
+/* Header */
+.changelog-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.changelog-title {
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.changelog-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    margin: var(--spacing-xl) 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--timeline-line);
+}
+
+.timeline-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7rem 1rem 1fr;
+    gap: var(--spacing-sm);
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-date {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    text-align: right;
+    font-weight: 500;
+}
+
+.timeline-marker {
+    width: 0.875rem;
+    height: 0.875rem;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    border: 2px solid var(--primary-bg);
+    position: relative;
+    z-index: 1;
+    justify-self: center;
+}
+
+.timeline-content {
+    padding-left: var(--spacing-xs);
+}
+
+.timeline-title {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--text-primary);
+    line-height: var(--line-height-base);
+}
+
+/* Footer */
+.changelog-footer {
+    text-align: center;
+    margin-top: var(--spacing-xl);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--primary-bg);
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background-color: #1a1e21;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
+.cta-button:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 36rem) {
+    .container {
+        padding: var(--spacing-lg);
+    }
+    
+    .timeline::before {
+        left: 0.4375rem;
+    }
+    
+    .timeline-item {
+        grid-template-columns: 1rem 1fr;
+        gap: var(--spacing-sm);
+        text-align: left;
+    }
+    
+    .timeline-date {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
+        margin-bottom: 0.25rem;
+        font-size: 0.8125rem;
+    }
+    
+    .timeline-marker {
+        grid-column: 1;
+        grid-row: 1 / 3;
+        align-self: start;
+        margin-top: 0.25rem;
+    }
+    
+    .timeline-content {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 0;
+    }
+}
+
