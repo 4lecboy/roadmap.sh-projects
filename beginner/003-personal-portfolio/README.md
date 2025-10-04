@@ -47,11 +47,12 @@ This project builds on the previous HTML-only website by applying CSS to create 
 
 ## Screenshots
 
-### Desktop
-![Desktop screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222310.png "Desktop")
+### Hero Section
+![Hero Section](./Personal%20Portfolio%20Screenshot%202025-10-03%20222348.png "Hero")
+### About Section
+![About Section](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222310.png "About")
+### Review and Footer Section
+![Review and Footer](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222347.png "Review and Footer")
 
-### Tablet
-![Tablet screenshot of the portfolio](./Personal%20Portfolio%20-%20Screenshot%202025-10-03%20222347.png "Tablet")
 
-### Mobile
-![Mobile screenshot of the portfolio](./Personal%20Portfolio%20Screenshot%202025-10-03%20222348.png "Mobile")
+
