@@ -9,6 +9,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 1. [**Single Page CV**](https://roadmap.sh/projects/single-page-cv)
 2. [**Basic HTML Website**](https://roadmap.sh/projects/basic-html-website)
 3. [**Personal Portfolio**](https://roadmap.sh/projects/portfolio-website)
+4. [**Changelog Component**](https://roadmap.sh/projects/changelog-component)
 
 ## 🛠️ Technologies & Skills Covered
 
