@@ -35,3 +35,8 @@ This project focuses on creating a simple, responsive changelog component using 
 - [x] Hover and focus states for interactive elements
 - [x] Clean, organized CSS with meaningful class names
 - [x] Proper use of semantic HTML elements (`<time>`, `<article>`, etc.)
+
+# Screenshot
+
+## Changelog Component
+#![Changelog Component](./Personal%20Portfolio%20Screenshot%202025-10-03%20222348.png "Changelog")
